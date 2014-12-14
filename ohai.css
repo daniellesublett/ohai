@@ -1,17 +1,41 @@
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
 
+h1 {
+  font-size: 7em;
+  margin-bottom: auto;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+#fourteen {
+  color: #B565A7;
+}
+
+#fifteen, h2{
+  color: #955251;
+}
 .cell{
   padding-bottom:100%;
-  background-color: grey;
-  border: 1px solid black;
+  background-color: lightgrey;
   margin: 2px;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-bottom: 5px;
 }
 
 .cell.blue {
-  background-color: blue;
+  background-color: #B565A7;
+  transition: opacity .3s ease-out;
 }
 
 .cell.red {
-  background-color: red;
+  background-color: #955251;
+  transition: opacity .3s ease-out;
 }
 
 /*  GRID OF FOUR   ============================================================================= */
@@ -31,7 +55,6 @@
 
 .span_1_of_4 {
   width: 23.8%;
-  border: 1px solid black;
   float: left;
 }
 
